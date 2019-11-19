@@ -53,9 +53,9 @@ wget -q --show-progress --https-only --timestamping \
   https://github.com/opencontainers/runc/releases/download/v1.0.0-rc9/runc.amd64 \
   https://github.com/containernetworking/plugins/releases/download/v0.8.2/cni-plugins-linux-amd64-v0.8.2.tgz \
   https://github.com/containerd/containerd/releases/download/v1.3.0/containerd-1.3.0.linux-amd64.tar.gz \
-  https://storage.googleapis.com/kubernetes-release/release/v1.16.2/bin/linux/amd64/kubectl \
-  https://storage.googleapis.com/kubernetes-release/release/v1.16.2/bin/linux/amd64/kube-proxy \
-  https://storage.googleapis.com/kubernetes-release/release/v1.16.2/bin/linux/amd64/kubelet
+  https://storage.googleapis.com/kubernetes-release/release/v1.16.3/bin/linux/amd64/kubectl \
+  https://storage.googleapis.com/kubernetes-release/release/v1.16.3/bin/linux/amd64/kube-proxy \
+  https://storage.googleapis.com/kubernetes-release/release/v1.16.3/bin/linux/amd64/kubelet
 ```
 
 Create the installation directories:
@@ -305,9 +305,9 @@ gcloud compute ssh controller-0 \
 
 ```
 NAME       STATUS   ROLES    AGE   VERSION
-worker-0   Ready    <none>   15s   v1.16.2
-worker-1   Ready    <none>   15s   v1.16.2
-worker-2   Ready    <none>   15s   v1.16.2
+worker-0   Ready    <none>   15s   v1.16.3
+worker-1   Ready    <none>   15s   v1.16.3
+worker-2   Ready    <none>   15s   v1.16.3
 ```
 
 Next: [Configuring kubectl for Remote Access](10-configuring-kubectl.md)
